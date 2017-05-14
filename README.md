@@ -6,5 +6,12 @@ Samples to have a better understanding of Chrome Developer Tools
 - Find the bug using Javascript Debugging function in Sources Panel
 - Extra Work : Implement the substract function
 
+[The Answer](https://joshua1988.github.io/DevCampWAP-DevTools/js-debug/app-complete.js)
+
 ## Page loading Debugging Sample Using Network Panel
-- 
+- [Chrome Status Verifier](https://joshua1988.github.io/DevCampWAP-DevTools/network/index.html) that allows you to verify the chrome version and status you are using.
+- Analyze the web page using Network Panel
+- Find the points that helps improve the initial rendering speed.
+- Extra Work : Implement the auto completed function to check the browser information
+
+[The Answer](https://joshua1988.github.io/DevCampWAP-DevTools/network/index-complete.html)
