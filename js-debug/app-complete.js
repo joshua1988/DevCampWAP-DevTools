@@ -4,7 +4,7 @@ function displayResult() {
   return updateInput();
 }
 function sumNumbers() {
-  return getNumber1() + getNumber2();
+  return parseInt(getNumber1()) + parseInt(getNumber2());
 }
 function getNumber1() {
   return inputs[0].value;
