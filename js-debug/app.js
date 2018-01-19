@@ -1,22 +1,22 @@
-function displayResult() {
+var displayResult = function() {
   if (exceptionHandlers()) return;
   resultText.innerHTML = getNumber1() + " + " + getNumber2() + " = " + sumNumbers();
   return updateInput();
 }
-function sumNumbers() {
+var sumNumbers = function() {
   return getNumber1() + getNumber2();
 }
-function getNumber1() {
+var getNumber1 = function() {
   return inputs[0].value;
 }
-function getNumber2() {
+var getNumber2 = function() {
   return inputs[1].value;
 }
-function updateInput() {
+var updateInput = function() {
   inputs[0].value = '';
   inputs[1].value = '';
 }
-function exceptionHandlers() {
+var exceptionHandlers = function() {
   if (getNumber1() === '' || getNumber2() === '') {
     resultText.innerHTML = "Put!! the numbers in input boxes.";
     return true;
